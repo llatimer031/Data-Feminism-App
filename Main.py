@@ -21,8 +21,8 @@ st.markdown("""Using PubMed's advanced search, articles containing the following
 - Endometriosis/Diagnosis
 - Polycystic Ovary Syndrome/Diagnosis
 - Postpartum Hemorrhage/Diagnosis \n
-The metadata for studies conducted on human subjects and published between 2000-2025 were further filtered and can be found here.
-The following analysis will be performed on a cleaned, filtered CSV.
+The metadata for studies conducted on human subjects and published between 2000-2025 were further filtered and can be found [here](https://github.com/llatimer031/Data-Feminism-App/blob/main/data/pubmed-dysmenorrh-set.nbib).
+The following analysis will be performed on a cleaned, filtered [CSV](https://github.com/llatimer031/Data-Feminism-App/blob/main/data/cleaned_female_data.csv).
 """)
 
 st.divider()
@@ -194,7 +194,7 @@ To provide a baseline for gender distribution in medical research, articles with
 
 While the previous MeSH terms were conditions specific to the female sex, heart disease is the leading cause of death for both **men and women**.
 
-<small><i>Note: As with the previous dataset, data was filtered to human subjects and publications between 2000–2025. Find the original and cleaned datasets here.</i></small>
+<small><i>Note: As with the previous dataset, data was filtered to human subjects and publications between 2000–2025. Find the original and cleaned datasets [here](https://github.com/llatimer031/Data-Feminism-App/tree/main/data).</i></small>
 """, unsafe_allow_html=True)
 
 # plot pie charts of gender distribution
