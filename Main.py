@@ -4,8 +4,8 @@ import ast
 import plotly.express as px
 
 # import data frame
-female_df = pd.read_csv("/Users/laurenlatimer/Desktop/data-feminism/final_analysis/cleaned_female_data.csv")
-neutral_df = pd.read_csv("/Users/laurenlatimer/Desktop/data-feminism/final_analysis/cleaned_neutral_data.csv")
+female_df = pd.read_csv("cleaned_female_data.csv")
+neutral_df = pd.read_csv("cleaned_neutral_data.csv")
 
 # ---------- PAGE SET-UP ---------- #
 
