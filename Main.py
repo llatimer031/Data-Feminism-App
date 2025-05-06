@@ -4,15 +4,15 @@ import ast
 import plotly.express as px
 
 # import data frame
-female_df = pd.read_csv("cleaned_female_data.csv")
-neutral_df = pd.read_csv("cleaned_neutral_data.csv")
+female_df = pd.read_csv("data/cleaned_female_data.csv")
+neutral_df = pd.read_csv("data/cleaned_neutral_data.csv")
 
 # ---------- PAGE SET-UP ---------- #
 
 st.set_page_config(layout='wide')
 st.title("PubMed Publication Analysis")
 
-st.write("Application by: Lauren Latimer | [Github]() ")
+st.write("Application by: Lauren Latimer | [Github](https://github.com/llatimer031/Data-Feminism-App#) ")
 
 st.header("**Goal:** Understand who is conducting research in women's health.")
 
@@ -256,17 +256,17 @@ st.write("For the topics explored in this project, there appears to be a gradual
 
 st.write("**Who is performing this research?**")
 st.markdown("""
-While there is still a degree of uncertainty in the percentages shown due to a probability-based gender guesser,
-the distribution of author gender appears to lean heavily towards female in women's health fields 
-when compared to a more neutral condition such as heart disease. 
+While there is still a degree of uncertainty due to a probability-based gender guesser,
+the distribution of author gender in women's health fields appears to lean heavily female,
+especially when compared to a more neutral condition such as heart disease. 
 This is especially true of articles published in the United States.
 """)
 
 st.write("**Where do we go from here?**")
 st.markdown("""
 Though there are obvious limitations to these findings, 
-they suggest that to move forward in the direction of equitable healthcare,
+they suggest that in regards to making the healthcare industry more equitable,
 there may be benefits to investigating questions such as
-whether women-led teams are equally receiving funding,
-how to increase male involvement in women's fields, etc. 
+whether women-led teams (who appear to lead female-based research) receive equal funding,
+how to increase male involvement in women's health fields, etc. 
 """)
