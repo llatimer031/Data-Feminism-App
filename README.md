@@ -5,9 +5,7 @@ This app explores a subset of PubMed publications from 2000-2025, particularly p
 
 ## Usage:
 To launch via Streamlit cloud:
-
 https://data-feminism-app-t7l6ntwmm7mf35qja8iivb.streamlit.app/
-
 
 To launch locally:
 1. **Navigate to the proper folder:** Clone the repository, and then open your terminal and move to the directory containing 'Data-Feminism-App'  
